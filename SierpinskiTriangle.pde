@@ -12,7 +12,7 @@ public void mouseDragged()//optional
 }
 public void sierpinski(int x, int y, int len) 
 {
-	if(len>20){
+	if(len>10){
 		//Draw a triangle with the left corner at (`x`,`y`) and a base and height equal to `len`
 		triangle(x,y,x+len/2,y-len,x+len,y);
 		sierpinski(x, y, len/2);
